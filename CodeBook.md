@@ -12,7 +12,7 @@ is a 10299x561 data frame, as in the original description ("Number of Instances:
 train/subject_train.txt with test/subject_test.txt, the result of which is a 10299x1 data frame with subject IDs, 
 and train/y_train.txt with test/y_test.txt, the result of which is also a 10299x1 data frame with activity IDs.  
 
-* Reads features.txt and extracts only the measurements on the mean and standard deviation for each measurement. 
+* Reads features.txt and extracts only the measurements on the mean and standard deviation for each measurement.The result is a 10299x66 data frame, because only 66 out of 561 attributes are measurements on the mean and standard deviation. All measurements appear to be floating point numbers in the range (-1, 1).. 
 
 * Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set:  
 
