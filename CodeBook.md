@@ -14,7 +14,10 @@ and train/y_train.txt with test/y_test.txt, the result of which is also a 10299x
 
 * Reads features.txt and extracts only the measurements on the mean and standard deviation for each measurement. 
 
-* Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set:
+* Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set:  
+
+
+
 1.walking  
 
 2.walking_upstairs  
