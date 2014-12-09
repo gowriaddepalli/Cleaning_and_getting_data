@@ -15,12 +15,18 @@ and train/y_train.txt with test/y_test.txt, the result of which is also a 10299x
 * Reads features.txt and extracts only the measurements on the mean and standard deviation for each measurement. 
 
 * Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set:
-1.walking
-2.walking_upstairs
-3.walking_downstairs
-4.sitting
-5.standing 
-6.laying
+1.walking  
+
+2.walking_upstairs  
+
+3.walking_downstairs  
+
+4.sitting  
+
+5.standing  
+
+6.laying  
+
 
 * The script also appropriately labels the data set with descriptive names: all feature names (attributes) and activity
 names are converted to lower case, underscores and brackets () are removed. Then it merges the 10299x66 data frame containing
@@ -30,12 +36,18 @@ a 10299x68 data frame such that the first column contains subject IDs, the secon
 to the following:
 
 
-1.tbodyacc-mean-x 
-2.tbodyacc-mean-y
-3.tbodyacc-mean-z
-4.tbodyacc-std-x 
-5.tbodyacc-std-y 
-6.tbodyacc-std-z
+1.tbodyacc-mean-x  
+
+2.tbodyacc-mean-y  
+
+3.tbodyacc-mean-z  
+
+4.tbodyacc-std-x  
+
+5.tbodyacc-std-y  
+
+6.tbodyacc-std-z  
+
 
 
 *  Finally, the script creates a 2nd, independent tidy data set with the average of each measurement for each activity and 
